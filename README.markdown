@@ -1,4 +1,4 @@
-# The Official raywenderlich.com C# Style Guide
+# The Official GMO Z-com C# Style Guide
 
 This style guide is different from other you may see, because the focus is
 centered on readability for print and the web. We created this style guide to
@@ -350,8 +350,7 @@ if (someTest)
 ```
 ## Switch Statements
 
-Switch-statements come with `default` case by default (heh). When your code is written correctly, it should never reach this part.
-Never include the `default` case.
+Switch-statements should include the `default` case. It helps prevent errors on unexpected input especially from web.
 
 **BAD:**  
   
@@ -361,8 +360,6 @@ switch (variable)
     case 1:
         break;
     case 2:
-        break;
-    default:
         break;
 }
 ```
@@ -375,6 +372,8 @@ switch (variable)
     case 1:
         break;
     case 2:
+        break;
+    default:
         break;
 }
 ```
