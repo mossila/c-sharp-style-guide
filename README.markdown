@@ -1,14 +1,14 @@
-# The Official GMO Z-com C# Style Guide
+# The Official GMO-Z.com Securities(Thailand) C# Style Guide
 
 This style guide is different from other you may see, because the focus is
 centered on readability for print and the web. We created this style guide to
-keep the code in our tutorials consistent.  
+keep the code in our projects consistent.  
 
 Our overarching goals are **conciseness**, **readability** and **simplicity**. Also, this guide is written to keep **Unity** in mind. 
 
 ## Inspiration
 
-This style guide is based on C# and Unity conventions. 
+This style guide is based on C#, Unity conventions, raywenderlich/c-sharp-style-guide. 
 
 ## Table of Contents
 
@@ -49,13 +49,13 @@ Namespaces are all **PascalCase**, multiple words concatenated together, without
 **BAD**:
 
 ```csharp
-com.raywenderlich.fpsgame.hud.healthbar
+gmo.fpsgame.hud.healthbar
 ```
 
 **GOOD**:
 
 ```csharp
-RayWenderlich.FPSGame.HUD.Healthbar
+Gmo.FPSGame.HUD.Healthbar
 ```
 
 ### Classes & Interfaces
