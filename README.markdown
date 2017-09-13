@@ -68,7 +68,7 @@ Methods are written in **PascalCase**. For example `DoSomething()`.
 
 ### Fields
 
-All non-static fields are written **camelCase**. Per Unity convention, this exclude **public Fields** , the **public Fields**.
+All non-static fields are written **camelCase**. Per Unity convention, this exclude **public Fields** , the **public Fields** should be in **PascalCase**.
 
 For example:
 
