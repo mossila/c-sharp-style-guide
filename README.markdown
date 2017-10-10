@@ -79,6 +79,9 @@ public class MyClass
     int packagePrivate;
     private int myPrivate;
     protected int myProtected;
+    
+    public int Count() {return 0;}
+    private int size() { return 1; }
 }
 ```
 
